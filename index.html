@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Automation Studio — business automations, built in days</title>
+<meta name="description" content="AI-powered automation studio: n8n workflows, AI chatbots, WhatsApp automation for Salla/Zid stores, scrapers and business systems. Tested, documented, delivered fast.">
+<style>
+  :root{
+    --bg:#0b1020; --panel:#131a30; --panel2:#1a2340; --text:#e8ecf8;
+    --muted:#9aa7c7; --accent:#4f8cff; --accent2:#37d0a5; --line:#26314f;
+    --radius:14px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;line-height:1.6}
+  .wrap{max-width:960px;margin:0 auto;padding:0 20px}
+  header{padding:64px 0 40px;text-align:center}
+  .badge{display:inline-block;border:1px solid var(--line);color:var(--accent2);border-radius:999px;padding:4px 14px;font-size:.85rem;margin-bottom:18px}
+  h1{font-size:clamp(1.8rem,4.5vw,2.8rem);line-height:1.2;margin-bottom:14px}
+  h1 em{color:var(--accent);font-style:normal}
+  .sub{color:var(--muted);max-width:640px;margin:0 auto 26px;font-size:1.05rem}
+  .cta{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;padding:12px 26px;border-radius:10px;font-weight:600}
+  .cta.ghost{background:transparent;border:1px solid var(--line);color:var(--text);margin-left:10px}
+  section{padding:36px 0;border-top:1px solid var(--line)}
+  h2{font-size:1.5rem;margin-bottom:8px}
+  .lead{color:var(--muted);margin-bottom:24px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:22px}
+  .card h3{font-size:1.08rem;margin-bottom:8px}
+  .card p{color:var(--muted);font-size:.95rem}
+  .price{color:var(--accent2);font-weight:600;margin-top:10px;font-size:.92rem}
+  .demo{background:var(--panel2);border:1px solid var(--line);border-radius:var(--radius);padding:22px;margin-bottom:16px}
+  .demo h3{margin-bottom:6px}
+  .demo .shot{background:#0e1430;border:1px dashed var(--line);border-radius:10px;padding:26px;text-align:center;color:var(--muted);font-size:.9rem;margin-top:12px}
+  .demo .diagram{margin-top:12px;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:#0b1020}
+  .demo .diagram img{display:block;width:100%;height:auto}
+  .demo .diagram-caption{font-size:.78rem;color:var(--muted);padding:8px 12px;border-top:1px solid var(--line)}
+  .steps{counter-reset:step;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}
+  .step{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:20px}
+  .step::before{counter-increment:step;content:counter(step);display:inline-flex;width:28px;height:28px;border-radius:50%;background:var(--accent);color:#fff;align-items:center;justify-content:center;font-weight:700;margin-bottom:10px}
+  .honest{background:linear-gradient(135deg,var(--panel),var(--panel2));border:1px solid var(--line);border-radius:var(--radius);padding:26px}
+  .ar{direction:rtl;text-align:right}
+  footer{padding:40px 0 60px;text-align:center;color:var(--muted);font-size:.9rem}
+  @media (prefers-color-scheme: light){
+    :root{--bg:#f6f8fd;--panel:#ffffff;--panel2:#eef2fb;--text:#101528;--muted:#54617f;--line:#d9e0f0}
+  }
+</style>
+</head>
+<body>
+<header class="wrap">
+  <span class="badge">AI-powered automation studio</span>
+  <h1>Business automations,<br>built in <em>days</em> — not weeks</h1>
+  <p class="sub">n8n workflows · AI chatbots · WhatsApp automation for Salla &amp; Zid stores · scrapers &amp; business systems. Tested, documented in plain language, running on infrastructure <strong>you own</strong>.</p>
+  <a class="cta" href="#contact">Get a free feasibility answer</a>
+  <a class="cta ghost" href="#work">See working demos</a>
+</header>
+
+<section class="wrap" id="services">
+  <h2>What I build</h2>
+  <p class="lead">Fixed prices. Working preview before final payment. 7-day free fix window on everything.</p>
+  <div class="grid">
+    <div class="card"><h3>⚙️ n8n automation workflows</h3><p>Lead capture → CRM, order flows, data syncs, reports, AI-powered steps. Error handling included, not optional.</p><p class="price">from $50</p></div>
+    <div class="card"><h3>🤖 AI chatbots</h3><p>Website, WhatsApp or Telegram. Grounded in <em>your</em> business info, hands off to a human exactly when it should.</p><p class="price">from $100</p></div>
+    <div class="card"><h3>🛍️ Salla / Zid store automation</h3><p>Order confirmations, shipping updates and abandoned-cart recovery on WhatsApp — built for Gulf e-commerce.</p><p class="price">from $25</p></div>
+    <div class="card"><h3>📊 Scrapers &amp; data pipelines</h3><p>Public data → cleaned, deduplicated, delivered to your sheet on schedule. Honest about what's scrapeable.</p><p class="price">from $50</p></div>
+    <div class="card"><h3>🗂️ Business systems</h3><p>Notion / Airtable / Google Sheets systems that update themselves instead of eating your evenings.</p><p class="price">from $60</p></div>
+    <div class="card"><h3>🔁 Automation care</h3><p>Monthly retainer: monitoring, fixes and small improvements for systems I've built.</p><p class="price">from $75/mo</p></div>
+  </div>
+</section>
+
+<section class="wrap" id="work">
+  <h2>Working demos</h2>
+  <p class="lead">Every demo below is a real, running build, tested end to end — diagrams are generated directly from the actual tested workflow, not drawn by hand.</p>
+  <div class="demo"><h3>WhatsApp store automation (Salla/Zid pattern)</h3><p class="lead">Order confirmed → instant personalized WhatsApp message → shipping updates → abandoned-cart recovery with stop-on-purchase logic. Built and tested with 3 passing executions, including the edge case: a customer who buys during the wait window gets no message.</p><div class="diagram"><img src="diagrams/demo-1-salla-zid-diagram.svg" alt="Salla/Zid WhatsApp automation workflow diagram" loading="lazy"><div class="diagram-caption">Diagram generated directly from the tested n8n workflow (13 nodes) — not a mockup.</div></div></div>
+  <div class="demo"><h3>Lead capture → CRM → instant alert</h3><p class="lead">Form submission → validated &amp; deduplicated → CRM row → team notification. Tested against messy input: normalized "JANE@acme.com " correctly caught as a duplicate, bot junk rejected before it ever reached the CRM.</p><div class="diagram"><img src="diagrams/demo-2-lead-capture-diagram.svg" alt="Lead capture to CRM workflow diagram" loading="lazy"><div class="diagram-caption">Diagram generated directly from the tested n8n workflow (10 nodes) — not a mockup.</div></div></div>
+  <div class="demo"><h3>Web scraper → clean data → sheet</h3><p class="lead">Public listing pages → parsed → cleaned, deduplicated, validated → appended to a sheet, with a skipped-rows report explaining every rejection. Tested turning 4 dirty sample rows into 2 clean rows plus a labeled skip report.</p><div class="diagram"><img src="diagrams/demo-3-scraper-diagram.svg" alt="Web scraper to clean data pipeline workflow diagram" loading="lazy"><div class="diagram-caption">Diagram generated directly from the tested n8n workflow (5 nodes) — not a mockup.</div></div></div>
+  <div class="demo"><h3>AI support chatbot with knowledge base</h3><p class="lead">Answers from the business's own documents, refuses to guess, hands off to a human with a conversation summary.</p><div class="shot">Waiting on a real LLM key before this one gets built — a demo that can't actually run won't be faked here.</div></div>
+</section>
+
+<section class="wrap" id="how">
+  <h2>How working with me goes</h2>
+  <div class="steps">
+    <div class="step"><strong>Tell me the annoying task.</strong><br>I answer honestly whether automation is worth it for your case — sometimes it isn't, and I'll say so.</div>
+    <div class="step"><strong>Fixed quote + working sketch.</strong><br>Serious inquiries get a mini-demo of their actual use case before paying anything.</div>
+    <div class="step"><strong>Build in days.</strong><br>50% to start (projects over $150), working preview, rest on approval.</div>
+    <div class="step"><strong>You own everything.</strong><br>Your accounts, your keys, plain-language docs, 7-day fix window.</div>
+  </div>
+</section>
+
+<section class="wrap">
+  <div class="honest">
+    <h2>Why "AI-powered" is written everywhere</h2>
+    <p class="lead" style="margin-bottom:0">Because it's true and it's the advantage: I design and build with advanced AI tooling, which is why delivery takes days instead of weeks and why a custom demo costs me minutes instead of hours. Every build is tested against your real use case before it ships — speed here doesn't mean corners cut, it means a different way of working.</p>
+  </div>
+</section>
+
+<section class="wrap ar" id="arabic">
+  <h2>نبني أنظمة الأتمتة لأعمالك — بالعربي</h2>
+  <p class="lead">أتمتة متاجر سلة وزد بالواتساب، بوتات ذكاء اصطناعي ترد على عملائك من معلومات أعمالك، ربط تطبيقاتك ببعضها، وجمع البيانات في جداول جاهزة. أسعار ثابتة، نسخة تجريبية قبل الدفع النهائي، توثيق مبسط بالعربي، و7 أيام دعم مجاني بعد التسليم. كل النظام ملكك: حساباتك ومفاتيحك — بدون اشتراكات.</p>
+</section>
+
+<section class="wrap" id="contact">
+  <h2>Contact</h2>
+  <p class="lead">Message me your most annoying manual task — I'll tell you honestly if automation is worth it, usually within the hour.</p>
+  <div class="grid">
+    <div class="card"><h3>Fiverr</h3><p>[gig links added at launch]</p></div>
+    <div class="card"><h3>خمسات</h3><p>[روابط الخدمات عند الإطلاق]</p></div>
+    <div class="card"><h3>Email</h3><p>[business email added at launch]</p></div>
+  </div>
+</section>
+
+<footer class="wrap">Built fast, honestly. © 2026</footer>
+</body>
+</html>
